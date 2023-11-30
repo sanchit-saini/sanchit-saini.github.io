@@ -1,0 +1,54 @@
+:root {
+    height: 100%;
+    background-color: #212121;
+    width: 100vw;
+    font-family: sans-serif;
+    font-weight: 163;
+    color: #fff;
+}
+
+.container {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    position: relative;
+}
+
+.item {
+    top : 25%;
+    bottom: 25%;
+    position: absolute;
+    width: 100%;
+    z-index:2;
+}
+
+.center {
+    text-align: center;
+    align-items: center;
+}
+
+.title {
+    padding-top: 40px;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+ul {
+    text-align: left;
+}
+
+li {
+    list-style-type: none;
+    white-space: nowrap;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    color: grey;
+    text-decoration: underline;
+}
